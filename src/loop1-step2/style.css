@@ -1,0 +1,59 @@
+body {
+  background-color: #51b0f3;
+}
+
+.container {
+  -webkit-box-shadow: 2px 2px 2px -2px #000000;
+  box-shadow: 2px 2px 2px -2px #000000;
+  background-color: white;
+  padding: 20px;
+  max-width: 450px;
+  margin: auto;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #cacaca;
+}
+
+.enterTabIndexWrapper {
+  display: flex;
+}
+
+.inputNumber {
+  flex-grow: 1;
+  border: 0;
+  border-bottom: 2px solid #e2e2e2;
+  padding-bottom: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.inputNumber:focus {
+  border-bottom: 2px solid black;
+  outline: none;
+}
+
+.button {
+  background-color: #e2e2e2;
+  border: 0;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.tablinks {
+  background-color: transparent;
+  border: 0;
+  margin: 15px;
+  margin-left: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #e2e2e2;
+}
+
+.tablinks--selected {
+  color: black;
+}
+
+.hidden {
+  display: none;
+}
