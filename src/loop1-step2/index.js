@@ -55,22 +55,13 @@ const Loop1Step2 = () => {
           Neutral
         </button>
       </div>
-      <div
-        id="positive"
-        className={`tabcontent ${selectedTab !== "1" ? "hidden" : ""}`}
-      >
+      <div className={`tabcontent ${selectedTab !== "1" ? "hidden" : ""}`}>
         <p>Positive content</p>
       </div>
-      <div
-        id="negative"
-        className={`tabcontent ${selectedTab !== "2" ? "hidden" : ""}`}
-      >
+      <div className={`tabcontent ${selectedTab !== "2" ? "hidden" : ""}`}>
         <p>Negative content</p>
       </div>
-      <div
-        id="neutral"
-        className={`tabcontent ${selectedTab !== "3" ? "hidden" : ""}`}
-      >
+      <div className={`tabcontent ${selectedTab !== "3" ? "hidden" : ""}`}>
         <p>Neutral content</p>
       </div>
     </div>
