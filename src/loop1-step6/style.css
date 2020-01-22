@@ -1,0 +1,37 @@
+body {
+  background: white;
+}
+
+.container {
+  animation: showing 1s, fading 1s;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.rectangle {
+  height: 450px;
+  width: 800px;
+  margin: 0 auto;
+  background: #efefef;
+  margin-top: 20px;
+  animation: fading 2s;
+}
+
+@keyframes fading {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes showing {
+  from {
+    margin-top: 150px;
+  }
+  to {
+    margin-top: 50px;
+  }
+}
