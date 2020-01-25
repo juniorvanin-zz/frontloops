@@ -1,0 +1,30 @@
+body {
+  background-color: #f4f4f4;
+}
+aside {
+  width: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.container {
+  width: 800px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.side-menu {
+  width: 260px;
+  height: 200px;
+  border-radius: 5px;
+  background-color: white;
+  border: 2px solid #ededed;
+  position: absolute;
+  top: 100px;
+}
+
+.main-content {
+  width: 500px;
+  height: 1000px;
+  background-color: #ededed;
+}
