@@ -1,0 +1,19 @@
+body {
+  background-color: #3a3a3a;
+}
+
+.root,
+.container {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  border-radius: 5px;
+  cursor: all-scroll;
+  position: absolute;
+}
