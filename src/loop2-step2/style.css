@@ -1,0 +1,30 @@
+.container {
+  width: 500px;
+  margin: auto;
+  margin-top: 25px;
+  background-color: white;
+  padding: 25px;
+}
+
+.items {
+  list-style: none;
+  padding: 0;
+}
+
+.button--selected {
+  background-color: #f1f1f1 !important;
+}
+.button--bold {
+  font-weight: bold;
+}
+
+.button {
+  text-align: left;
+  border: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}

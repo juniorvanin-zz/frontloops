@@ -1,9 +1,9 @@
 import React from "react";
 
-import { Loop2Step1 } from "./loop2-step1";
+import { Loop2Step2 } from "./loop2-step2";
 
 function App() {
-  return <Loop2Step1 />;
+  return <Loop2Step2 />;
 }
 
 export default App;
