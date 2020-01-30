@@ -1,0 +1,64 @@
+body {
+  background-color: #333333;
+}
+.message {
+  padding: 25px;
+  border-radius: 5px;
+  width: 600px;
+  background-color: white;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  font-family: sans-serif;
+  margin-top: 75px;
+}
+
+.color-menu {
+  padding: 25px;
+  border-radius: 5px;
+  width: 800px;
+  background-color: black;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  bottom: 100px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+  transition: opacity 0.5s ease-in;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.color-menu--visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.color {
+  height: 150px;
+  width: 150px;
+}
+
+.blue {
+  background-color: #367cff;
+}
+
+.green {
+  background-color: rgb(76, 187, 76);
+}
+
+.yellow {
+  background-color: rgb(233, 233, 66);
+}
+
+.red {
+  background-color: rgb(250, 78, 78);
+}
+
+.purple {
+  background-color: rgb(197, 66, 197);
+}
