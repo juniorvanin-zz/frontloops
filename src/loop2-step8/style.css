@@ -1,0 +1,53 @@
+body {
+  background-color: white;
+}
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: #4a3079;
+  border-radius: 10px;
+}
+
+.video-player {
+  width: 800px;
+  margin: auto 0;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  cursor: pointer;
+}
+
+.video-player:hover {
+  background-color: black;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  font-weight: bold;
+  opacity: 0.8;
+  background-color: transparent;
+  border: 0;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 25px 22px;
+  color: white;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.progress-bar {
+  flex-grow: 1;
+  background-color: #8772ad;
+  height: 5px;
+  margin-right: 20px;
+}
+
+.progress-bar--completed {
+  background-color: #d1ced8;
+  height: 5px;
+}
